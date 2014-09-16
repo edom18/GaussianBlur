@@ -1,0 +1,31 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#cv {
+    opacity: 0;
+}
+
+#dropImg {
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border: solid 1px #333;
+  color: #666;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  text-align: center;
+}
+#dropImg.hover {
+  background-color: #222;
+}
+
+#viewBox {
+  white-space: nowrap;
+  overflow: auto;
+  margin-bottom: 10px;
+  padding: 40px 20px 40px 20px;
+  color: #666;
+  border: solid 3px #444;
+  background: url(http://jsrun.it/assets/5/B/K/g/5BKg3.png) left top repeat;
+  text-align: center;
+}

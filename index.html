@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>ガウシアンブラー</title>
+<meta name="Description" content="" />
+<meta name="Keywords"  content="" />
+
+<link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+</head>
+<body>
+<div id="viewBox">
+    <canvas id="viewCanvas"></canvas>
+</div>
+
+<div id="ctrl">
+    <p>
+        強さ:<input type="range" min="0" max="500" value="10" id="range" /><span id="rangeDisplay">10</span>
+    </p>
+    <p>
+        半径:<input type="range" min="0" max="100" value="10" id="radius" /><span id="radiusDisplay">10</span>px
+    </p>
+</div>
+
+<div id="dropImg" ondragover="onDragOver(event);" ondrop="onDrop(event);" ondragenter="onDragEnter(event);" ondragleave="onDragLeave(event);">
+    <p>Drop images here.</p>
+<!-- /#dropImg --></div>
+
+<script src="main.js"></script>
+</body>
+</html>
